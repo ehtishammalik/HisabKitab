@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Groups"
+            android:icon="@android:drawable/btn_star"
+            android:title="Groups" />
+        <item
+            android:id="@+id/CreateGroup"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="CreateGroup" />
+    </group>
+
+    <item android:title="@string/Info">
+        <menu>
+            <item
+                android:id="@+id/About"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="About" />
+            <item
+                android:id="@+id/Logout"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>
